@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Tours and Travels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="navbar n-nav">
+                <div class="logo">
+                    <img src="img/logo1.png" alt="Error loading image">
+                </div>
+                <div class="lists">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="Feature.html">Feature</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="Review.html">Review</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="login.html">Sign Up/Log In</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <h6>Sign Up/Log In</h6>
+        <section class="section7">
+            <div class="card-l">
+                <div class="front">
+                    <form class="form3" action="">
+                        <h1>LOGIN</h1>
+                        <input class="input2" type="email" name="email" id="email1" placeholder="Your Email ID">
+                        <input class="input2" type="password" name="password" id="password1" placeholder="Password">
+                        <button class="input2 btn7">Submit</button>
+                        <input class="input2" type="checkbox" name="check" id="check">
+                        <p>Remember Me</p>
+                        <button class="input2 btn7" onclick="openRegister()">I'm new here</button>
+                        <p>Forget Password</p>
+                    </form>
+                </div>
+            </div>
+            <div class="another-card card-l">
+                <div class="back">
+                    <form class="form3" action="">
+                        <h1>REGISTER</h1>
+                        <input type="text" name="text" id="text" placeholder="Enter your name" class="input3">
+                        <input class="input3" type="email" name="email" id="email" placeholder="Your Email ID">
+                        <input class="input3" type="password" name="password" id="password" placeholder="Password">
+                        <button class="input3 btn7">Submit</button>
+                        <button class="input3 btn7" onclick="openLogIn()">I've have an account</button>
+                        <p>Forget Password</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="foot">
+            Created by  <a>&nbsp; RK Designer &nbsp;</a>  &copy; ! All Rights Reserved
+        </footer>
+    </div>
+    <script src="resp.js"></script>
+</body>
+
+</html>
